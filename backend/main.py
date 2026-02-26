@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from agent import ask_agent
+from backend.agent import ask_agent
 
 app = FastAPI()
 
