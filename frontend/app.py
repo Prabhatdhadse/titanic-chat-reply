@@ -21,7 +21,7 @@ if question:
     st.session_state.chat.append(("user", question))
 
     res = requests.get(
-        "http://localhost:8000/ask",
+        "https://titanic-chat-reply.onrender.com/",
         params={"q": question}
     ).json()["answer"]
 
