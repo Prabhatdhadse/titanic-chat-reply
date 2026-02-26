@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+matplotlib
+seaborn
+streamlit
+langchain
+langchain-experimental
+langchain-openai
+openai
